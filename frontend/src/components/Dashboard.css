@@ -1,0 +1,156 @@
+/* Mise en page du dashboard */
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background: white;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 4px;
+    gap: 48px;
+}
+
+.logo1{
+    width: auto;
+    height: auto;
+}
+   
+  
+  .logo1 img{
+    width: 200px;
+    height: 80px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #444;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 51, 102, 0.5), rgba(138, 43, 226, 0.5));
+  }
+  
+  .sidebar li:hover {
+    background-color: #555;
+  }
+  
+  .sidebar li.active {
+    background-color: #FF2400;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  
+  .liste{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+
+  /* Styles de base pour le formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Ajoute un espacement entre les champs */
+  max-width: 400px; /* Limite la largeur du formulaire */
+  margin: 0 auto; /* Centre le formulaire */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les labels */
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff; /* Change la couleur de la bordure quand l'input est sélectionné */
+  outline: none; /* Retire la bordure par défaut */
+}
+
+/* Style pour le bouton */
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #0056b3; /* Change la couleur du bouton quand on passe la souris */
+}
+
+/* Ajouter un effet hover pour les inputs */
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+  border-color: #aaa;
+}
+
+/* Centrer le texte dans le bouton */
+button {
+  text-align: center;
+}
+
+.mdf{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+}

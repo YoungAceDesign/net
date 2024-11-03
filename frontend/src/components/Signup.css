@@ -1,0 +1,103 @@
+/* src/components/Signup.css */
+* {
+    box-sizing: border-box;
+  }
+  
+  .signup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin: 80px 150px;
+    width: auto;
+  }
+  
+  .description {
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .description p {
+    font-size: 16px;
+    background: none;
+    font-weight: 700;
+    text-align: justify;
+  }
+  
+  .signup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    height: 100%;
+    background-color: rgba(238, 237, 237, 0.45);
+    padding: 32px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .signup-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .signup-content form button {
+    background: linear-gradient(to right, rgba(255, 36, 0), rgba(231, 29, 115));
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 24px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .inputC {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-bottom: 16px;
+  }
+  
+  .logo {
+    background: none;
+    width: 500px;
+    height: 200px;
+  }
+  
+  h2 {
+    color: #FF2400;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 63px;
+    margin: 0px;
+  }
+  
+  label {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .signup-content form h3 {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  

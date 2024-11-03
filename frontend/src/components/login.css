@@ -1,0 +1,128 @@
+/* src/components/Login.css */
+*{
+  box-sizing: border-box;
+}
+
+.connexion {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin: 80px 150px ;
+    width: auto;
+  }
+
+  .description{
+    background-color:  white;
+    padding: 16px;
+    border-radius: 4px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description p{
+     /* Dégradé écarlate vers violet */
+    font-size: 16px;
+    background: none;
+    font-weight: 700;
+    text-align: justify;
+  }
+  
+  .connexion-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    height: 100%;
+    background-color: rgba(238, 237, 237, 0.45);
+    padding: 32px; /* Augmenter le padding autour du contenu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre subtile pour donner du relief */
+    border-radius: 8px;
+   
+  }
+
+  .connexion-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; /* Limite la largeur à 400px */
+    margin: 0 auto; /* Centre le formulaire */
+    background-color: rgba(238, 237, 237, 0.45);
+  }
+  
+  
+  .connexion-content form button {
+    background: linear-gradient(to right, rgba(255, 36, 0), rgba(231, 29, 115));
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 24px; /* Ajout de plus de padding */
+    width: 100%; /* S'assurer que le bouton occupe toute la largeur */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; /* Ajout du curseur pointer pour indiquer que c'est cliquable */
+  }
+  
+
+  .ins-btn{
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    background: linear-gradient(to right, rgba(255, 36, 0), rgba(231, 29, 115));
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+  }
+  h3{
+    margin: 0px;
+  }
+  .inputC {
+    width: 100%;
+    padding: 12px; /* Augmenter légèrement le padding pour plus de confort */
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-bottom: 16px; /* Ajoute de l'espace sous chaque input */
+  }
+  
+
+  .logo{
+     background: none;
+     width: 500px;
+     height: 200px;
+  }
+
+  .connexion-content h2 {
+    color: #FF2400;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 63px;
+    margin: 0px;
+  }
+
+  label{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .connexion-content form h3{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  
+  
+  

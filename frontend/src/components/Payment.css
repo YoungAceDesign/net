@@ -1,0 +1,162 @@
+/* Global reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(to right, rgba(255, 36, 0,0.5), rgba(0, 51, 102,0.2), rgba(138, 43, 226,0.5));
+  border-radius: 8px;
+}
+
+.payment-logo{
+  background: transparent;
+}
+
+.payment-logo img {
+  width: 400px;
+  height: 150px;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+.payment-grid{
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.2);     
+  padding-bottom: 24px; 
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+h2 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 40px;
+  background: transparent;
+}
+
+
+.price{
+  background: linear-gradient(to right, rgba(255, 36, 0), rgba(0, 51, 102), rgba(138, 43, 226));
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.price h2{
+  color: white;
+  font-size: 35px;
+}
+
+.price h1{
+  text-decoration: underline;
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.payment-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  gap: 16px;
+}
+
+
+
+.payment-option:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.payment-option img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.payment-option span {
+  font-size: 18px;
+  color: #333;
+}
+
+.wave {
+  background-color: #f7faff;
+  border: 2px solid #0077b6;
+}
+
+.visa {
+  background-color: #f5f5f5;
+  border: 2px solid #1a1f71;
+}
+
+.visa span{
+  background:transparent;
+}
+
+.wave span {
+  background:transparent;
+}
+
+.wave img{
+  background:transparent;
+}
+
+.visa img{
+  background:transparent;
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.service-section{
+  display: flex;
+  flex-direction: row;
+}
+
+.service-section h3{
+  font-size: 24px;
+  color : black;
+}
+
+
+.service-section li{
+   list-style-type: none;
+   font-size: 16px;
+   font-weight: 700;
+}
+
+.title-services{
+  text-align: center;
+}
